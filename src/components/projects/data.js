@@ -7,9 +7,25 @@ import resaleBdImg3 from '../../assets/resaleBD/img3.png'
 import learnToDayImg1 from '../../assets/learnToDay/img1.png'
 import learnToDayImg2 from '../../assets/learnToDay/img2.png'
 import learnToDayImg3 from '../../assets/learnToDay/img3.png'
+import educationMaster1 from '../../assets/educationMaster/educationMaster1.png'
+import educationMaster2 from '../../assets/educationMaster/educationMaster2.png'
+import educationMaster3 from '../../assets/educationMaster/educationMaster3.png'
 
 export const projectsData = (
     [
+        {
+            title:"Education Master",
+            subTitle: "A Learnig Management System (LMS)",
+            images:[educationMaster1, educationMaster2, educationMaster3],
+            gitHubLink:"https://github.com/Mostofa321/Education-Master",
+            liveLink:"https://education-master-nkkgarpo6-mostofa321.vercel.app/",
+            features:[
+                "This is a single page application developed by using next js and typescript .",
+                "On this single-page application added styles and responsive behavior by using tailwind",
+                "Used material tailwind (component library) for building user interface",
+            ],
+            usedTechnologies: ["Next js", "React js", "TypeScript", "Tailwind CSS", "Material-tailwind", "React-icons etc.",],
+        },
         {
             title:"Ryan's Kitchen",
             subTitle: "A Cloud Kitchen Servise Site",
